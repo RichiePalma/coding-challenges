@@ -42,7 +42,6 @@ yarn-error.log*
 *.a
 *.lib
 *.dll
-*.so
 *.dylib
 
 # Go
