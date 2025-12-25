@@ -38,6 +38,18 @@ Code Submissions list:
 
 </details>
 
+<details>
+  <summary>125. Valid Palindrome</summary>
+
+[LeetCode Problem Description](https://leetcode.com/problems/valid-palindrome/description/)
+
+Code Submissions list:
+
+- Java: [`ValidPalindrome.java`](leetcode/java/src/ValidPalindrome.java) && [`ValidPalindromeTest.java`](leetcode/java/test/ValidPalindromeTest.java)
+- Python: [`valid_palindrome.py`](leetcode/python/src/valid_palindrome.py) && [`test_valid_palindrome.py`](leetcode/python/test/test_valid_palindrome.py)
+
+</details>
+
 ### HackerRank
 
 <details>
