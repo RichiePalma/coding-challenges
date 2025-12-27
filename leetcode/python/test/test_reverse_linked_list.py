@@ -13,7 +13,6 @@ from list_node import ListNode
     ],
 )
 
-
 def test_reverse_list_iteratively(head: ListNode, expected: ListNode):
     rll = ReverseLinkedList()
     assert rll.reverse_list_iteratively(head) == expected

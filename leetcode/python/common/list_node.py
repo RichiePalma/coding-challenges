@@ -21,5 +21,5 @@ class ListNode:
         for v in vals[1:]:
             cur.next = cls(v)
             cur = cur.next
-        print(head)
+
         return head

@@ -18,15 +18,9 @@ class ReverseLinkedListTest {
         );
     }
 
-    @Test
-    public void testArrayToListNode(){
-        ListNode ln = new ListNode(new int[]{1,2,3});
-        System.out.println(ln);
-    }
-
     @ParameterizedTest
     @MethodSource("provideTestCases")
-    void testSolveWithTwoPointers(TestCase tc) {
+    void testReverseListIteratively(TestCase tc) {
         ReverseLinkedList rll = new ReverseLinkedList();
         assertEquals(tc.expected, rll.reverseListIteratively(tc.head));
     }
